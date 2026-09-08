@@ -4,12 +4,8 @@
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwnyuaqVt_ojcctZz1jUlC238bQ_oDLf346wutzliHPOcZ7EaEwMWF222gsfBD6qY7xXA/exec";
 
 const events = [
-  { title: "Ganesh Sthapana", date: "5 September 2026", time: "10:00 AM", location: "Main Auditorium", category: "pooja", icon: "🪔", description: "Join us for the ceremonial installation of Lord Ganesha." },
-  { title: "Cultural Night", date: "6 September 2026", time: "6:00 PM", location: "Open Ground", category: "cultural", icon: "🎤", description: "An evening of music, dance and performances by our campus community." },
-  { title: "Student Competitions", date: "7 September 2026", time: "2:00 PM", location: "Student Centre", category: "competitions", icon: "🏆", description: "Put your creativity to work in our festive student competitions." },
-  { title: "Modak Making Workshop", date: "5 September 2026", time: "3:00 PM", location: "Cafeteria Courtyard", category: "activities", icon: "🍥", description: "Learn the art of making a traditional festive favourite together." },
-  { title: "Community Pooja", date: "6 September 2026", time: "9:00 AM", location: "Main Auditorium", category: "pooja", icon: "🙏", description: "Begin the day with prayers, aarti and blessings for our campus." },
-  { title: "Open Mic: Ekta", date: "7 September 2026", time: "5:30 PM", location: "Open Ground", category: "cultural", icon: "🎶", description: "Share a song, poem or story that celebrates togetherness." }
+  { title: "Ganesh Sthapana", date: "14 September 2026", time: "Comming soon", location: "K Block library", category: "pooja", icon: "🪔", description: "Join us for the ceremonial installation of Lord Ganesha." },
+  { title: "Cultural Program", date: "14-16 September 2026", time: "--", location: "-", category: "Programs", icon: "🕺💃", description: "Put your creativity to work in our festive student competitions." },
 ];
 
 const updates = [
