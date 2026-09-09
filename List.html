@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Track the Ganesh Chaturthi 2026 collection and event equipment spending breakdown.">
+  <title>Expense Report | Ganesh Chaturthi 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">ॐ</span><span>Ganesh Chaturthi <b>2026</b></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events &amp; Activities</a>
+        <a class="nav-donate" href="payment.html">Donate <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="expenses-page">
+    <section class="page-intro container expense-intro">
+      <p class="eyebrow"><span></span> Budget overview</p>
+      <h1>Collection &amp; <em>expenses</em></h1>
+      <p>Tracking the festival collection and the equipment spending for the event setup, sound, lighting and decoration.</p>
+    </section>
+
+    <section class="container expense-summary-section">
+      <div class="summary-grid">
+        <article class="summary-card summary-card-primary">
+          <span class="summary-label">Collection amount</span>
+          <strong data-total-collection>₹ 12,000</strong>
+          <small>Contributions received</small>
+        </article>
+        <article class="summary-card">
+          <span class="summary-label">Total spent</span>
+          <strong data-total-spent>₹ 0</strong>
+          <small>Equipment and materials</small>
+        </article>
+        <article class="summary-card">
+          <span class="summary-label">Remaining balance</span>
+          <strong data-remaining-balance>₹ 0</strong>
+          <small>Available for future needs</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="container expense-breakdown-section">
+      <div class="section-heading expense-heading">
+        <div>
+          <p class="eyebrow"><span></span> Expense ledger</p>
+          <h2>Event equipment <em>spending</em></h2>
+        </div>
+      </div>
+
+      <div class="expense-list" data-expense-list aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark">ॐ</span><span>Ganesh Chaturthi <b>2026</b></span></a>
+      <p>Celebrating together as one campus community.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="payment.html">Donate</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>Organized by the Student Organizing Committee</span>
+      <span>© <span data-current-year>2026</span> Ganesh Chaturthi Campus Celebration</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
